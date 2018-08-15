@@ -3,10 +3,10 @@
 @section('content')
 <!-- Content header -->
 <section class="content-header">
-	<h1>Fboders <small>List of Fboders</small></h1>
+	<h1>Fboders <small>Edit fboder</small></h1>
 	<ol class="breadcrumb">
 		<li><a href="#"><i class="fa fa-comment"></i> Fboders</a></li>
-    	<li class="active">List of Fboders</li>
+    	<li class="active">Edit fboder</li>
 	</ol>
 </section>
 <!-- Main content -->
@@ -15,7 +15,7 @@
 		<div class="col-md-12">
 			<div class="box box-primary">
 				<div class="box-header">
-					<h3 class="box-title">List of Fboders</h3>
+					<h3 class="box-title">Edit fboder</h3>
 				</div>
 				<div class="box-body">
 					{!! Form::model($fboder, ['route' => ['fboders.update', $fboder->oder_id], 'method' => 'PATCH']) !!}

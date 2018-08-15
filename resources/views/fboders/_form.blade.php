@@ -59,7 +59,7 @@
 		<div class="form-group">
 			{!! Form::label('postBy', 'Post By:') !!} <span style="color: red;"><b>[<i class="fa fa-asterisk"></i>]</b></span>
 			<div class="input-group">
-				<div class="input-group-addon"><i class="fa fa-suitcase"></i></div>
+				<div class="input-group-addon"><i class="fa fa-user"></i></div>
 				{!! Form::text('postBy', null, ['placeholder' => 'Post By', 'class' => 'form-control']) !!}
 			</div>
 		</div>
