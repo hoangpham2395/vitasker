@@ -1,0 +1,47 @@
+.padding {
+	padding: 15px;
+}
+
+.padding-top {
+	padding-top: 15px;
+}
+
+.padding-bottom {
+	padding-bottom: 15px;
+}
+
+.no-padding-bottom {
+	padding-bottom: 0 !important;
+}
+
+.my-table thead {
+	background-color: #212529; 
+	border-color: #32383e; 
+	color: #fff;
+}
+
+.select-per-page {
+	display: inline-flex;
+	margin: 15px 0;
+	line-height: 2em;
+}
+
+.select-per-page select {
+	height: 30px; 
+	margin: 0 10px;
+}
+
+/* Show pagination */
+.show-pagination {
+	line-height: 6em;
+}
+
+.show-pagination ul.pagination {
+	float: right;
+}
+
+/* Modal */
+.my-modal-header {
+	background-color: #3c8dbc;
+	color: #fff;
+}
