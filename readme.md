@@ -16,12 +16,9 @@ chmod -R 777 storage/framework
 chmod -R 777 public/images
 ```
 
-- Run
+- Install composer
 ```
 composer install
-php artisan cache:clear
-php artisan config:clear
-php artisan view:clear
 ```
 
 - Run deploy
@@ -39,3 +36,9 @@ DB_USERNAME=root
 DB_PASSWORD=
 ```
 
+- Delete cache
+```
+php artisan config:cache
+php artisan route:cache
+php artisan view:cache
+```
